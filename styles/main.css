@@ -3,6 +3,7 @@ body {
     margin: 0;
     min-height: 100vh;
   }
+
 .header, .hero-container{
   background-color: #1f2937; 
 }
@@ -11,7 +12,22 @@ body {
 .header {
     display: flex;
     justify-content: space-around;
-    padding: 8px;
+    padding: 20px;
+}
+
+.hero-container button {
+  display: block;
+  text-align: center;
+  width: 110px;
+  border: none;
+  background: #3882f6;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Roboto', arial;
+  text-decoration: none;
+  font-weight: bold;
+  
 }
   
 ul {
@@ -23,6 +39,8 @@ ul {
   
   
 }
+
+
 
  .information-container, .quote-container {
   display: flex;
@@ -49,8 +67,9 @@ ul {
   }
 
 
+/* Information Section */
 
-.information-container {
+.information-container{
   gap: 36px;
 
 }
@@ -79,6 +98,50 @@ ul {
   font-size: 36px;
   font-style: italic;
 }
+
+.call-to-action {
+  background-color: #3882F6 ;
+  margin: 50px 200px;
+  padding: 10px 80px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border-color: none;
+}
+
+.call-to-action-item{
+  flex: 1;
+}
+
+.call-to-action-text{
+  text-align: left;
+
+}
+.call-to-action-text p{
+  color: #fff;
+  opacity: 0.7;
+  margin: 5px 30px 30px 50px;;
+
+}
+h3 {
+  color: #fff;
+  font-family: 'Roboto', arial;
+  padding: 0;
+  margin: 30px 0px 0px 50px;
+}
+
+.call-to-action-btn button {
+  color: #fff;
+  font-family: 'Roboto', arial;
+  border-color: #fff;
+  border-radius: 8px;
+  background-color: #3882F6;
+  padding: 5px 25px;
+  font-size: 15px;
+}
+
+
+
 .footer {
   display: flex;
   justify-content: center;
